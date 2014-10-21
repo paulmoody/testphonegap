@@ -1,4 +1,4 @@
-html {
+﻿html {
     height: 100%;
 }
 
@@ -187,4 +187,13 @@ h2 {
     margin:10px;
     width:100px;
     height:100px;
+}
+.scroll {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    position: absolute;
+    top: 84px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
 }
